@@ -7,11 +7,9 @@ import ProductDetailsPage from './components/ProductDetailsPage/ProductDetailsPa
 import CartPage from './components/CartPage/CartPage';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage';
 import UserProfilePage from './components/UserProfilePage/UserProfilePage';
+import LoginPage from './components/LoginPage/LoginPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function LoginPage() {
-  return <div>Connexion</div>;
-}
 
 function App() {
   return (

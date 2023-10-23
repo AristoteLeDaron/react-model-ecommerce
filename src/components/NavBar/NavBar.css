@@ -1,0 +1,18 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background-color: var(--navbar-bg, #ddd); /* Vous pouvez ajouter cette variable dans index.css si vous le souhaitez */
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+
+  /* Ajouter un effet de survol (hover) pour améliorer la lisibilité */
+  &:hover {
+      background-color: var(--navbar-hover-bg, #ccc); /* Encore une fois, vous pouvez ajouter cette variable dans index.css si vous le souhaitez */
+  }
+}

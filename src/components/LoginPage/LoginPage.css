@@ -1,0 +1,9 @@
+.loginPage {
+  background-color: var(--login-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.loginPageContainer {
+  background-color: var(--login-page-container-bg);
+  /* Autres styles pour le conteneur */
+}
