@@ -1,4 +1,20 @@
+:root {
+  /* Couleurs */
+  --primary-color: #3498db; /* Vous pouvez changer cette valeur */
+  --secondary-color: #2c3e50; /* Vous pouvez changer cette valeur */
+  --background-color: #ecf0f1; /* Vous pouvez changer cette valeur */
+  --font-color: #333; /* Vous pouvez changer cette valeur */
+  
+  /* Polices */
+  --primary-font: "Arial", sans-serif; /* Vous pouvez changer cette valeur */
+  --secondary-font: "Verdana", sans-serif; /* Vous pouvez changer cette valeur */
+}
+
 body {
+  font-family: var(--primary-font);
+  background-color: var(--background-color);
+  color: var(--font-color);
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
