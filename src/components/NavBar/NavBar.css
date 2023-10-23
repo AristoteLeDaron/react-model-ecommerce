@@ -1,7 +1,8 @@
 .navBar {
   display: flex;
   justify-content: space-around;
-  padding: 1rem 0;
+  padding: 0.2 rem 0;
+  border-radius: 25px;
   background-color: var(--navbar-bg, #ddd); /* Vous pouvez ajouter cette variable dans index.css si vous le souhaitez */
 }
 

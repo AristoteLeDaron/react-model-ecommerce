@@ -18,7 +18,7 @@
 .searchInput {
   padding: 0.5rem;
   border: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 20px 0px 0px 20px ;
   flex-grow: 1;
   color: var(--font-color); /* ajouté pour la couleur du texte */
   background-color: var(--background-color); /* ajouté pour la couleur de fond de la barre de recherche */
@@ -39,7 +39,7 @@
   background-color: var(--secondary-color);
   color: var(--background-color); /* Utilisé pour la couleur du texte du bouton */
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 .cartBtn {
@@ -49,5 +49,5 @@
   background-color: var(--fifth-color);
   color: var(--background-color); /* Utilisé pour la couleur du texte du bouton */
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 20px;
 }
