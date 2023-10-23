@@ -4,6 +4,34 @@
   --secondary-color: #2c3e50; /* Vous pouvez changer cette valeur */
   --background-color: #ecf0f1; /* Vous pouvez changer cette valeur */
   --font-color: #333; /* Vous pouvez changer cette valeur */
+
+  /* HomePage */
+  --home-page-bg: #e6f7ff;
+  --home-page-container-bg: #b3e0ff;
+
+  /* ProductsPage */
+  --products-page-bg: #ffe6e6;
+  --products-page-container-bg: #ffb3b3;
+
+  /* ProductDetailsPage */
+  --product-details-page-bg: #e6ffe6;
+  --product-details-page-container-bg: #b3ffb3;
+
+  /* CartPage */
+  --cart-page-bg: #ffffe6;
+  --cart-page-container-bg: #ffffb3;
+
+  /* CheckoutPage */
+  --checkout-page-bg: #ffe6ff;
+  --checkout-page-container-bg: #ffb3ff;
+
+  /* UserProfilePage */
+  --user-profile-page-bg: #e6e6ff;
+  --user-profile-page-container-bg: #b3b3ff;
+
+  /* LoginPage (si nécessaire) */
+  --login-page-bg: #f2e6e6;
+  --login-page-container-bg: #e6b3b3;
   
   /* Polices */
   --primary-font: "Arial", sans-serif; /* Vous pouvez changer cette valeur */

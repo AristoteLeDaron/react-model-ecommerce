@@ -1,10 +1,13 @@
 import React from 'react';
+import './UserProfilePage.css';
 
 function UserProfilePage() {
   return (
-    <div>
-      <h2>Profil</h2>
-      {/* Ici, vous allez afficher les informations de l'utilisateur et permettre des mises à jour. */}
+    <div className="userProfilePage">
+      <div className="userProfilePageContainer">
+        <h2>Profil</h2>
+        <p>Bienvenue sur la page de votre Profil</p>
+      </div>
     </div>
   );
 }

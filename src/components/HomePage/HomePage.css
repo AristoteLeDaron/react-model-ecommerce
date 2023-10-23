@@ -1,0 +1,9 @@
+.homePage {
+  background-color: var(--home-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.homePageContainer {
+  background-color: var(--home-page-container-bg);
+  /* Autres styles pour le conteneur */
+}

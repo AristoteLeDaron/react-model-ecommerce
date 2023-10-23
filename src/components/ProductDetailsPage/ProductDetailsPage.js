@@ -1,10 +1,13 @@
 import React from 'react';
+import './ProductDetailsPage.css';
 
 function ProductDetailsPage() {
   return (
-    <div>
-      <h2>Détails du produit</h2>
-      {/* Ici, vous afficherez les détails d'un produit spécifique. */}
+    <div className="productDetailsPage">
+      <div className="productDetailsContainer">
+        <h2>Détails du produit</h2>
+        <p>Bienvenue sur la page du détail des produits</p>
+      </div>
     </div>
   );
 }

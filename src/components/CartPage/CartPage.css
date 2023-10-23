@@ -1,0 +1,9 @@
+.cartPage {
+  background-color: var(--cart-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.cartPageContainer {
+  background-color: var(--cart-page-container-bg);
+  /* Autres styles pour le conteneur */
+}

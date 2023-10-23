@@ -1,0 +1,9 @@
+.productsPage {
+  background-color: var(--products-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.productsPageContainer {
+  background-color: var(--products-page-container-bg);
+  /* Autres styles pour le conteneur */
+}

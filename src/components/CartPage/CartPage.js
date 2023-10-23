@@ -1,12 +1,16 @@
 import React from 'react';
+import './CartPage.css';
 
 function CartPage() {
   return (
-    <div>
-      <h2>Panier</h2>
-      {/* Ici, vous allez afficher les articles ajoutés au panier et le total. */}
+    <div className="cartPage">
+      <div className="cartPageContainer">
+        <h2>Panier</h2>
+        <p>Bienvenue sur la page de votre Panier</p>
+      </div>
     </div>
   );
 }
+
 
 export default CartPage;

@@ -1,0 +1,9 @@
+.userProfilePage {
+  background-color: var(--userProfile-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.userProfilePageContainer {
+  background-color: var(--userProfile-page-container-bg);
+  /* Autres styles pour le conteneur */
+}

@@ -1,0 +1,9 @@
+.checkoutPage {
+  background-color: var(--checkout-page-bg);
+  /* Autres styles généraux pour cette page */
+}
+
+.checkoutPageContainer {
+  background-color: var(--checkout-page-container-bg);
+  /* Autres styles pour le conteneur */
+}

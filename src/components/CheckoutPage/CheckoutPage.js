@@ -1,12 +1,16 @@
 import React from 'react';
+import './CheckoutPage.css';
 
 function CheckoutPage() {
   return (
-    <div>
-      <h2>Commande</h2>
-      {/* Ici, vous allez gérer le processus de commande. */}
+    <div className="checkoutPage">
+      <div className="checkoutPageContainer">
+        <h2>Commande</h2>
+        <p>Bienvenue sur la page du processus de commande</p>
+      </div>
     </div>
   );
 }
+
 
 export default CheckoutPage;
