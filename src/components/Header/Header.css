@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.header h1 {
+  color: var(--background-color);
+}
+
+.headerContainer {
+  /* Ici, vous pouvez ajouter des styles spécifiques pour le conteneur à l'intérieur de l'en-tête. */
+  max-width: 1200px; /* exemple */
+  margin: 0 auto; /* centre le conteneur */
+  padding: 0 20px; /* espace intérieur pour le conteneur */
+}

@@ -1,9 +1,12 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
-    <header style={{ backgroundColor: 'var(--primary-color)', padding: '1rem' }}>
-      <h1 style={{ color: 'var(--background-color)' }}>React Model E-Commerce</h1>
+    <header className="header">
+      <div className="headerContainer">
+        <h1>React Model E-Commerce</h1>
+      </div>
     </header>
   );
 }
