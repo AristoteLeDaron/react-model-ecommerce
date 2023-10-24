@@ -1,9 +1,9 @@
 .navBar {
   display: flex;
   justify-content: space-around;
-  padding: 0.2 rem 0;
+  padding: 0.2rem 0;
   border-radius: 25px;
-  background-color: var(--navbar-bg, #ddd); /* Vous pouvez ajouter cette variable dans index.css si vous le souhaitez */
+  background-color: var(--navbar-bg, #ddd);
 }
 
 .navLink {
@@ -11,9 +11,32 @@
   color: inherit;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s;
+}
 
-  /* Ajouter un effet de survol (hover) pour améliorer la lisibilité */
-  &:hover {
-      background-color: var(--navbar-hover-bg, #ccc); /* Encore une fois, vous pouvez ajouter cette variable dans index.css si vous le souhaitez */
-  }
+.navLink:hover {
+  background-color: var(--navbar-hover-bg, #ccc);
+}
+
+.dropdown {
+  position: relative;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.dropdownLink {
+  pointer-events: none;  /* Empêche les clics sur ce lien, ce qui force l'utilisateur à choisir une sous-catégorie */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  border-radius: 0 0 25px 25px;
+  background-color: var(--navbar-bg, #ddd);
+}
+
+.dropdown:hover .submenu {
+  display: flex;
 }

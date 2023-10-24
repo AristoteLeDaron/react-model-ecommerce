@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
-import ProductsPage from './components/ProductsPage/ProductsPage';
-import ProductDetailsPage from './components/ProductDetailsPage/ProductDetailsPage';
+import ProductSubCategoryPage from './components/ProductSubCategoryPage/ProductSubCategoryPage'; // Vous aurez besoin de créer ce composant
+import ProductCategoryPage from './components/ProductCategoryPage/ProductCategoryPage'; // Vous aurez besoin de créer ce composant
 import CartPage from './components/CartPage/CartPage';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage';
 import UserProfilePage from './components/UserProfilePage/UserProfilePage';
 import LoginPage from './components/LoginPage/LoginPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 
 function App() {
   return (
@@ -17,8 +16,8 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/produits/:id" element={<ProductDetailsPage />} />
-          <Route path="/produits" element={<ProductsPage />} />
+          <Route path="/produits/:category/:subcategory" element={<ProductSubCategoryPage />} />
+          <Route path="/produits/:category" element={<ProductCategoryPage />} />
           <Route path="/panier" element={<CartPage />} />
           <Route path="/commande" element={<CheckoutPage />} />
           <Route path="/profil" element={<UserProfilePage />} />
