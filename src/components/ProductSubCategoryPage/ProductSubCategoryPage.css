@@ -1,0 +1,47 @@
+/* Conteneur global pour la page de sous-catégorie */
+.product-subcategory-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titre pour la sous-catégorie */
+.product-subcategory-page h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Conteneur pour chaque produit individuel */
+.product-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Image de produit */
+.product-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+/* Titre du produit */
+.product-item h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* Description du produit */
+.product-item p {
+  margin: 5px 0;
+}
+
+/* Prix du produit */
+.product-item .product-price {
+  font-weight: bold;
+  color: green;
+}

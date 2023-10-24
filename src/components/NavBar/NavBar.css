@@ -23,9 +23,7 @@
   cursor: pointer;
 }
 
-.dropdownLink {
-  pointer-events: none;  /* Empêche les clics sur ce lien, ce qui force l'utilisateur à choisir une sous-catégorie */
-}
+
 
 .submenu {
   display: none;

@@ -1,0 +1,407 @@
+[
+  {
+    "id": 1,
+    "name": "Produit 1A-1",
+    "description": "Description du produit 1A-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_1.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1A"
+  },
+  {
+    "id": 2,
+    "name": "Produit 1A-2",
+    "description": "Description du produit 1A-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_1.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1A"
+  },
+  {
+    "id": 3,
+    "name": "Produit 1A-3",
+    "description": "Description du produit 1A-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_1.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1A"
+  },
+  {
+    "id": 4,
+    "name": "Produit 1A-4",
+    "description": "Description du produit 1A-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_1.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1A"
+  },
+  {
+    "id": 5,
+    "name": "Produit 1A-5",
+    "description": "Description du produit 1A-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_1.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1A"
+  },
+  {
+    "id": 6,
+    "name": "Produit 1B-1",
+    "description": "Description du produit 1B-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_2.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1B"
+  },
+  {
+    "id": 7,
+    "name": "Produit 1B-2",
+    "description": "Description du produit 1B-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_2.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1B"
+  },
+  {
+    "id": 8,
+    "name": "Produit 1B-3",
+    "description": "Description du produit 1B-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_2.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1B"
+  },
+  {
+    "id": 9,
+    "name": "Produit 1B-4",
+    "description": "Description du produit 1B-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_2.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1B"
+  },
+  {
+    "id": 10,
+    "name": "Produit 1B-5",
+    "description": "Description du produit 1B-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_2.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1B"
+  },
+  {
+    "id": 11,
+    "name": "Produit 1C-1",
+    "description": "Description du produit 1C-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_3.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1C"
+  },
+  {
+    "id": 12,
+    "name": "Produit 1C-2",
+    "description": "Description du produit 1C-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_3.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1C"
+  },
+  {
+    "id": 13,
+    "name": "Produit 1C-3",
+    "description": "Description du produit 1C-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_3.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1C"
+  },
+  {
+    "id": 14,
+    "name": "Produit 1C-4",
+    "description": "Description du produit 1C-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_3.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1C"
+  },
+  {
+    "id": 15,
+    "name": "Produit 1C-5",
+    "description": "Description du produit 1C-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_3.jpeg",
+    "category": "Produits1",
+    "subCategory": "Produits1C"
+  },
+  {
+    "id": 16,
+    "name": "Produit 2A-1",
+    "description": "Description du produit 2A-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_4.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2A"
+  },
+  {
+    "id": 17,
+    "name": "Produit 2A-2",
+    "description": "Description du produit 2A-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_4.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2A"
+  },
+  {
+    "id": 18,
+    "name": "Produit 2A-3",
+    "description": "Description du produit 2A-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_4.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2A"
+  },
+  {
+    "id": 19,
+    "name": "Produit 2A-4",
+    "description": "Description du produit 2A-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_4.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2A"
+  },
+  {
+    "id": 20,
+    "name": "Produit 2A-5",
+    "description": "Description du produit 2A-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_4.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2A"
+  },
+  {
+    "id": 21,
+    "name": "Produit 2B-1",
+    "description": "Description du produit 2B-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_5.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2B"
+  },
+  {
+    "id": 22,
+    "name": "Produit 2B-2",
+    "description": "Description du produit 2B-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_5.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2B"
+  },
+  {
+    "id": 23,
+    "name": "Produit 2B-3",
+    "description": "Description du produit 2B-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_5.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2B"
+  },
+  {
+    "id": 24,
+    "name": "Produit 2B-4",
+    "description": "Description du produit 2B-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_5.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2B"
+  },
+  {
+    "id": 25,
+    "name": "Produit 2B-5",
+    "description": "Description du produit 2B-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_5.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2B"
+  },
+  {
+    "id": 26,
+    "name": "Produit 2C-1",
+    "description": "Description du produit 2C-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_6.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2C"
+  },
+  {
+    "id": 27,
+    "name": "Produit 2C-2",
+    "description": "Description du produit 2C-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_6.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2C"
+  },
+  {
+    "id": 28,
+    "name": "Produit 2C-3",
+    "description": "Description du produit 2C-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_6.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2C"
+  },
+  {
+    "id": 29,
+    "name": "Produit 2C-4",
+    "description": "Description du produit 2C-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_6.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2C"
+  },
+  {
+    "id": 30,
+    "name": "Produit 2C-5",
+    "description": "Description du produit 2C-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_6.jpeg",
+    "category": "Produits2",
+    "subCategory": "Produits2C"
+  },
+  {
+    "id": 31,
+    "name": "Produit 3A-1",
+    "description": "Description du produit 3A-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_7.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3A"
+  },
+  {
+    "id": 32,
+    "name": "Produit 3A-2",
+    "description": "Description du produit 3A-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_7.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3A"
+  },
+  {
+    "id": 33,
+    "name": "Produit 3A-3",
+    "description": "Description du produit 3A-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_7.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3A"
+  },
+  {
+    "id": 34,
+    "name": "Produit 3A-4",
+    "description": "Description du produit 3A-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_7.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3A"
+  },
+  {
+    "id": 35,
+    "name": "Produit 3A-5",
+    "description": "Description du produit 3A-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_7.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3A"
+  },
+  {
+    "id": 36,
+    "name": "Produit 3B-1",
+    "description": "Description du produit 3B-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_8.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3B"
+  },
+  {
+    "id": 37,
+    "name": "Produit 3B-2",
+    "description": "Description du produit 3B-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_8.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3B"
+  },
+  {
+    "id": 38,
+    "name": "Produit 3B-3",
+    "description": "Description du produit 3B-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_8.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3B"
+  },
+  {
+    "id": 39,
+    "name": "Produit 3B-4",
+    "description": "Description du produit 3B-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_8.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3B"
+  },
+  {
+    "id": 40,
+    "name": "Produit 3B-5",
+    "description": "Description du produit 3B-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_8.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3B"
+  },
+  {
+    "id": 41,
+    "name": "Produit 3C-1",
+    "description": "Description du produit 3C-1",
+    "price": 29.99,
+    "imageUrl": "/img/ex_img_9.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3C"
+  },
+  {
+    "id": 42,
+    "name": "Produit 3C-2",
+    "description": "Description du produit 3C-2",
+    "price": 28.99,
+    "imageUrl": "/img/ex_img_9.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3C"
+  },
+  {
+    "id": 43,
+    "name": "Produit 3C-3",
+    "description": "Description du produit 3C-3",
+    "price": 25.99,
+    "imageUrl": "/img/ex_img_9.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3C"
+  },
+  {
+    "id": 44,
+    "name": "Produit 3C-4",
+    "description": "Description du produit 3C-4",
+    "price": 23.99,
+    "imageUrl": "/img/ex_img_9.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3C"
+  },
+  {
+    "id": 45,
+    "name": "Produit 3C-9",
+    "description": "Description du produit 3C-5",
+    "price": 22.99,
+    "imageUrl": "/img/ex_img_9.jpeg",
+    "category": "Produits3",
+    "subCategory": "Produits3C"
+  }
+]

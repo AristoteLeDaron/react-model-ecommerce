@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
-import ProductSubCategoryPage from './components/ProductSubCategoryPage/ProductSubCategoryPage'; // Vous aurez besoin de créer ce composant
-import ProductCategoryPage from './components/ProductCategoryPage/ProductCategoryPage'; // Vous aurez besoin de créer ce composant
+import ProductSubCategoryPage from './components/ProductSubCategoryPage/ProductSubCategoryPage';
+import ProductCategoryPage from './components/ProductCategoryPage/ProductCategoryPage';
+import ProductDetailsPage from './components/ProductDetailsPage/ProductDetailsPage';
 import CartPage from './components/CartPage/CartPage';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage';
 import UserProfilePage from './components/UserProfilePage/UserProfilePage';
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/produits/:category/:subcategory" element={<ProductSubCategoryPage />} />
           <Route path="/produits/:category" element={<ProductCategoryPage />} />
+          <Route path="/produit-detail/:id" element={<ProductDetailsPage />} />
           <Route path="/panier" element={<CartPage />} />
           <Route path="/commande" element={<CheckoutPage />} />
           <Route path="/profil" element={<UserProfilePage />} />
