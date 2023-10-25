@@ -1,0 +1,22 @@
+.product-card {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-card__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card__name {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.product-card__price {
+  margin: 0;
+  font-size: 1rem;
+}

@@ -1,41 +1,36 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import productsData from '../../data/products.json';
+import React from 'react';
+import products from '../../data/products.json';
+import ProductDetailsCard from '../ProductDetailsCard/ProductDetailsCard';
+import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './ProductCategoryPage.css';
 
 function ProductCategoryPage() {
   const { category } = useParams();
-  const [products, setProducts] = useState([]);
+  console.log("Catégorie actuelle:", category);
 
-  useEffect(() => {
-    console.log("Category:", category);
-    console.log("productsData:", productsData);
-    const filteredProducts = productsData.filter(product =>
-      product.category.toLowerCase() === category.toLowerCase()
-    );
-    setProducts(filteredProducts);
-  }, [category]);
+  const getSubCategories = () => {
+    const subCategories = products
+      .filter(p => p.category.toLowerCase() === category)
+      .map(p => p.subCategory.toLowerCase());
+    return [...new Set(subCategories)]; // remove duplicates
+  };
 
-  console.log(products);
+  const getLatestProduct = (subCategory) => {
+    const filteredProducts = products.filter(p => p.category.toLowerCase() === category && p.subCategory.toLowerCase() === subCategory);
+    return filteredProducts.sort((a, b) => b.id - a.id)[0];
+  };
+
+  const subCategories = getSubCategories();
 
   return (
-    <div className="product-category-page">
-      <h2>{category}</h2>
-      <ul>
-        <li><Link to={`/produits/${category}/${category}A`}>{`${category}A`}</Link></li>
-        <li><Link to={`/produits/${category}/${category}B`}>{`${category}B`}</Link></li>
-        <li><Link to={`/produits/${category}/${category}C`}>{`${category}C`}</Link></li>
-      </ul>
-
-      <h3>Produits disponibles :</h3>
-      <ul>
-        {products.map(product => (
-          <li key={product.id}>
-            <img src={product.imageUrl} alt={product.name} width="50" height="50" />
-            <span>{product.name} - {product.price}€</span>
-          </li>
-        ))}
-      </ul>
+    <div className="category__container">
+      {subCategories.map(subCategory => (
+        <Link to={`/produits/${category}/${subCategory}`} key={subCategory} className={`subCategory__${subCategory}__container`}>
+          <h2>{subCategory}</h2>
+          {getLatestProduct(subCategory) && <ProductDetailsCard key={getLatestProduct(subCategory).id} product={getLatestProduct(subCategory)} />}
+        </Link>
+      ))}
     </div>
   );
 }

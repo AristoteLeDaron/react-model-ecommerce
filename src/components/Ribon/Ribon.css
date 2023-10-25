@@ -1,0 +1,12 @@
+.ribon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg);
+  transform-origin: 0% 0%;
+  background-color: black;
+  color: white;
+  padding: 5px 40px;
+  z-index: 2;
+  font-weight: bold;
+}
