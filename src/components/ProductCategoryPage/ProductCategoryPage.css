@@ -1,7 +1,27 @@
 .product-category-page {
+  background-color: blue;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 1rem;
   margin: 2rem 0;
 }
+
+.category__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;  /* 60% de la largeur de la page */
+  max-height: 45vh;  /* 45% de la hauteur de la fenêtre (viewport) */
+  margin-right: 15%;  /* Marge à droite de 15% de la largeur de la page */
+  margin-left: auto;  /* Aligner à droite */
+}
+
+.subCategory__a__container,
+.subCategory__b__container,
+.subCategory__c__container {
+  display: flex;
+  flex-direction: column; /* Pour aligner le titre de la sous-catégorie et la carte produit verticalement */
+  width: 25%; /* Largeur fixe pour chaque carte */
+  box-sizing: border-box; /* Pour inclure padding et border dans la taille totale */
+}
+
+
